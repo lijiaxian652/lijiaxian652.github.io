@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+ body {
+     position: relative;
+     height: 100%;
+ }
+ 
+ body {
+     background: #eee;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     color: #000;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .swiper-container {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+ }
+
+.swiper-button-next{
+    transform:rotate(270deg);
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 46%;
+}
+
+.s1{
+    background-image: url(../img/1.gif);
+    background-size:100% 100%;
+}
+.yi .p1{
+    width: 94px;
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid #808a90;
+    padding: 25px;
+    color: #fff;
+    font-family: "方正行楷简体";
+    position:absolute;
+    top: 17%;
+    left: 37%;
+}
+.yi .p2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 60%;
+    left:34%;
+}
+
+.yi .p3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 70%;
+    left: 14%;
+}
+.music .t1{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+     z-index: 100;
+    top: 3%;
+    left: 87%;
+    animation: bb 1s infinite linear;
+    
+}
+@keyframes bb{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+.music .t2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 1%;
+    left: 83%;
+}
+
+.s2{
+    background-image: url(../img/1.jpg);
+    background-size:100% 100%;
+}
+.er{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.p4{
+    width: 20px;
+    font-size: 30px;
+    color: #712812;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 8%;
+    left: 12%;
+}
+.p5{
+    width: 20px;
+    font-size: 30px;
+    color: #712812;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 15%;
+    left: 23%;
+}
+.p6{
+    width: 160px;
+    position: absolute;
+    color: #712812;
+    font-family: "方正行楷简体";
+    font-size: 30px;
+    top: 8%;
+    left: 43%;
+}
+.p7{
+    width: 170px;
+    color: #712812;
+    font-family: "方正行楷简体";
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+.er img{
+    width: 86%;
+    height: 27%;
+    position: absolute;
+    top: 67%;
+    left: 8%;
+    border-radius: 5%;
+}
+
+.s3{
+    background-image: url(../img/4.jpg);
+    background-size: 100% 100%;
+}
+.s3 .t1{
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+    
+}
+.s3 .t2{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.p8{
+    font-size: 40px;
+    font-family: "方正行楷简体";
+    color: #ad3434;
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+.t3{
+    width: 41%;
+    height: 40%;
+    position: absolute;
+    top: 51%;
+    left: 6%;
+    border-radius: 5%;
+}
+.t4{
+    width: 41%;
+    height: 40%;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    border-radius: 5%;
+}
+.p9{
+    width: 70%;
+    font-family: "方正行楷简体";
+    color: #ad3434;
+    font-size: 21px;
+    text-align: left;
+    position: absolute;
+    top: 13%;
+}
+.san{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.s4{
+    background-image: url(../img/9.jpg);
+    background-size: 100% 100%;
+}
+.p10{
+    font-size: 40px;
+    color: #5f3c3c;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+.p11{
+    width: 73%;
+    font-size: 20px;
+    color: #584a4a;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 26%;
+    left: 13%;
+    text-align: left;
+}
+
+
+.t5{
+    width: 81%;
+    height: 30%;
+    position: absolute;
+    top: 60.5%;
+    left: 10%;
+    border-radius: 5%;
+}
+.t6{
+    width: 90%;
+    height: 40%;
+    position: absolute;
+    top: 17%;
+    left: 5%; 
+    border-radius: 5%;
+}
+.s5{
+    background-image: url(../img/15.jpg);
+    background-size: 100% 100%;
+}
+.si{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.t7{
+    width: 87%;
+    width: 87%;
+    position: absolute;
+    top: 16%;
+    left: 7%;
+    border-radius: 5%;
+}
+.p12{
+    font-size: 40px;
+    color: #3a1d0c;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+.p13{
+    width: 80%;
+    font-size: 25px;
+    color: #3a1d0c;
+    font-family: "方正行楷简体";
+    position: absolute;
+    top: 56%;
+    left: 10%;
+    text-align: left;
+}
+.s6{
+    background-image: url(../img/16.jpg);
+    background-size: 100% 100%; 
+}
+.t8{
+    width: 80%;
+    height: 6%;
+    position: absolute;
+    top: 5%;
+}
+.p14{
+    font-size: 30px;
+    color: #a09cc1;
+    position: absolute;
+    top: 12%;
+    font-family: "方正行楷简体";
+}
+.p15{
+    font-size: 30px;
+    color: #a09cc1;
+    position: absolute;
+    top: 18%;
+    font-family: "方正行楷简体";
+}
+.p16{
+    font-size: 30px;
+    color: #a09cc1;
+    position: absolute;
+    top: 24%;
+    font-family: "方正行楷简体";
+}
+.p17{
+    font-size: 30px;
+    color: #a09cc1;
+    position: absolute;
+    top: 30%;
+    font-family: "方正行楷简体";
+}
+.t9{
+    width: 87%;
+    height: 51%;
+    position: absolute;
+    top: 41%;
+    left: 5%;
+}
