@@ -117,7 +117,7 @@ body {
     left: 16%;    
 }
 .p1{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "迷你简汉真广标";
     color: #fff;
     position: absolute;
@@ -158,11 +158,11 @@ body {
     font-family: "迷你简汉真广标";
     color: #fff;
     position: absolute;
-    top: 63%;
+    top: 62%;
     left: auto;
 }
 .p4{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "仿宋";
     color: #fff;
     position: absolute;
@@ -170,7 +170,7 @@ body {
     left: auto;
 }
 .p5{
-    font-size:15px;
+    font-size:12px;
     font-family: "仿宋";
     color: #fff;
     position: absolute;
@@ -190,7 +190,7 @@ body {
     left: auto;
 }
 .p6{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "仿宋";
     color: #fff;
     position: absolute;
@@ -209,7 +209,7 @@ body {
     font-family: "黑体";
     color: #1d3375;
     position: absolute;
-    top: 15%;
+    top: 14%;
     left: auto;
 }
 .p8{
@@ -225,7 +225,7 @@ body {
     font-size: 84%;
     font-family: "仿宋";
     text-align: left;
-    line-height: 2;
+    line-height: 1.3;
     color: #fff;
     position: absolute;
     top: 27%;
@@ -262,13 +262,13 @@ body {
 }
 .p12{
     width: 73%;
-    font-size: 15px;
+    font-size: 83%;
     font-family: "仿宋";
     text-align: left;
-    line-height: 1.3;
+    line-height: 1;
     color: #fff;
     position: absolute;
-    top: 24%;
+    top: 23%;
     left: 14%;
 }
 .t10{
@@ -290,11 +290,11 @@ body {
     left: auto;
 }
 .p13{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 23%;
+    top: 24%;
     left: auto;
 }
 .t12{
@@ -305,11 +305,11 @@ body {
     left: auto;
 }
 .p14{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 31%;
+    top: 32%;
     left: auto;
 }
 .t13{
@@ -320,11 +320,11 @@ body {
     left: auto;
 }
 .p15{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 39%;
+    top: 40%;
     left: auto;
 }
 .t14{
@@ -335,11 +335,11 @@ body {
     left: auto;
 }
 .p16{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 47%;
+    top: 48%;
     left: auto;
 }
 .t15{
@@ -350,11 +350,11 @@ body {
     left: auto;
 }
 .p17{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 55%;
+    top: 56%;
     left: auto;
 }
 .t16{
@@ -365,11 +365,11 @@ body {
     left: auto;
 }
 .p18{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 63%;
+    top: 64%;
     left: auto;
 }
 .t17{
@@ -380,11 +380,11 @@ body {
     left: auto;
 }
 .p19{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 71%;
+    top: 72%;
     left: auto;
 }
 .t18{
@@ -395,11 +395,11 @@ body {
     left: auto;
 }
 .p20{
-    font-size: 15px;
+    font-size: 12px;
     font-family: "黑体";
     color: #fff;
     position: absolute;
-    top: 79%;
+    top: 80%;
     left: auto;
 }
 
@@ -442,7 +442,7 @@ body {
     top:25%;
 }
 .p21{
-    font-size: 15px;
+    font-size: 13px;
     font-family: "黑体";
     text-align: left;
     color: #fff;
@@ -459,15 +459,15 @@ body {
     width: 74%;
     height: 4%;
     position: absolute;
-    top: 83%;
+    top: 84%;
 }
 .p22{
-    font-size: 15px;
+    font-size: 13px;
     font-family: "黑体";
     text-align: left;
     color: #fff;
     position: absolute;
-    top: 81%;
+    top: 82%;
 }
 .s7{
     background-image: url(../img/bg.png);
