@@ -1,0 +1,38 @@
+/*css样式重置*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+inupt{
+    border: none;
+    outline: none;
+}
+/*css公共样式*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float:right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
