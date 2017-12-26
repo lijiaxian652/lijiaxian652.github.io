@@ -1,4 +1,4 @@
-/*css样式重置*/
+/*css的重置样式*/
 *{
     margin: 0;
     padding: 0;
@@ -6,9 +6,9 @@
     -webkit-box-sizing: border-box;
 }
 body{
-    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-family:"PingFang SC","Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft YaHei","微软雅黑",sans-serif;
     font-size: 14px;
-    color:#000;
+    color: #000;
 }
 ul,li{
     list-style: none;
@@ -19,20 +19,20 @@ a{
 a:hover{
     text-decoration: none;
 }
-inupt{
+input{
     border: none;
     outline: none;
 }
-/*css公共样式*/
-.f_left{
+/*公共样式*/
+.s_left{
     float: left;
 }
-.f_right{
-    float:right;
+.s_right{
+    float: right;
 }
 .clearfix::before,
 .clearfix::after{
-    content: '';
     clear: both;
+    content: "";
     display: table;
 }
