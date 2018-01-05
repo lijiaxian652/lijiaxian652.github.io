@@ -107,6 +107,9 @@ body {
     color: #fff;
    font-size: 0.26rem;
 }
+#show a{
+    color: #fff;
+}
 #show a li{
     color: #fff;
 }
