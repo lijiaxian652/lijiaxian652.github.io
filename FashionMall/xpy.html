@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width,
+    initial-scale=1.0,
+    user-scalable=no,
+    maximum-scale=1.0,
+    minimum-scale=1.0">
+    <title>产品详情</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.css"> </head>
+
+<body>
+    <div class="style_layout">
+        <div class="style_logo"> <img src="img/logo.png" alt=""> </div>
+    </div>
+    <div class="nav">
+        <div class="wt">女士外套</div>
+        <div id="show">
+            <ul>
+                <li><a href="index.html">商城首页</a></li>
+                <li><a href="jxwt.html">外套精选</a></li>
+                <li><a href="yznx.html">优质女鞋</a></li>
+                <li><a href="dl.html">登录/注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mian_yi">
+        <img src="img/11.jpg" alt="" class="tu1">
+        <img src="img/11.jpg" alt="" class="tu2">
+        <p class="p1">Letchovre 女士夹克</p>
+        <p class="p2">￥2,399.00</p>
+        <button class="b1">加入购物车</button>
+        <button class="b2">立即购买</button>
+        <p class="p3">商品编号：000280</p>
+        <p class="p4">分类：外套</p>
+        <ul>
+            <li><a href="">用户评论（0）</a></li>
+        </ul>
+        <p class="p5">目前还未有评论</p>
+        <p class="p6">只有买过此商品的客户登录后才能发表评论</p>
+    </div>
+    <div class="footer">
+        <div class="footer_d1">
+            <p>Copyright © 2010-2017</p>
+            <p>FASHION WEB</p>
+        </div>
+    </div>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    
+    <script>
+
+
+    var wt = document.querySelector(".wt");
+    var show = document.querySelector("#show");
+    wt.onclick = function(){
+        if(wt.innerHTML=="女士外套"){
+            wt.innerHTML = "关闭";
+            show.style.display = "block";
+        }else if(wt.innerHTML=="关闭"){
+            wt.innerHTML = "女士外套";
+            show.style.display = "none";
+        }
+    }
+
+    </script>
+</body>
+
+</html>

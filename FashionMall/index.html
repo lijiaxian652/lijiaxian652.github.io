@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width,
+    initial-scale=1.0,
+    user-scalable=no,
+    maximum-scale=1.0,
+    minimum-scale=1.0">
+    <title>商城</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.css"> </head>
+<body>
+    <div class="style_layout">
+        <div class="style_logo"> <img src="img/logo.png" alt=""> </div>
+    </div>
+    <div class="nav">
+        <div class="home">首页</div>
+        <div id="show">
+            <ul>
+                <li><a href="#">商城首页</a></li>
+                <li><a href="jxwt.html">外套精选</a></li>
+                <li><a href="yznx.html">优质女鞋</a></li>
+                <li><a href="dl.html">登录/注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href=""><img src="img/4.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                     <a href=""><img src="img/7.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                     <a href=""><img src="img/3.jpg" alt=""></a>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="Brand_story">
+            <div class="bg1">
+               <div class="bg2">
+                <img src="img/1.png" alt="">
+                </div>
+            </div>
+            <p class="Brand_p1">品牌故事</p>
+            <p class="Brand_p2">
+                服装因人而展现其魅力，或高雅、或清纯、或妩媚、或知性...服装赋予女人外表魅力的同时，也映射出女人的内涵与品位。
+            </p>
+            <div class="Brand_d1">MORE</div>
+        </div>
+        <div class="Brand_online">
+            <div>
+                <p class="online_p1">ONLINE STORE</p>
+                <p class="online_p2">fashion show</p>
+            </div>
+        </div>
+        <div class="Brand_style">
+            <p class="style_p1">品牌优选</p>
+            <div class="style_div1">
+                <a href="">
+                    <img src="img/4.png" alt="" class="style_img1">
+                    <div class="style_bk">
+                        <p>豹纹小花纯色打底衫女衬衫</p>
+                        <p>￥1599</p>
+                    </div>
+                </a>
+            </div>
+            <div class="style_div2">
+                <a href="">
+                    <img src="img/9.jpg" alt="" class="style_img1">
+                    <div class="style_bk">
+                        <p>冬季长款外套女毛呢粉色羊绒大衣</p>
+                        <p>￥2499</p>
+                    </div>
+                </a>
+            </div>
+            <div class="style_div3">
+                <a href="">
+                    <img src="img/10.jpg" alt="" class="style_img1">
+                    <div class="style_bk">
+                        <p>洋气蓝色小西服</p>
+                        <p>￥1999</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact_us">
+        <p class="contact_p1">联系我们</p>
+        <div class="contact_d1">
+            <input type="text" value="姓名">
+            <input type="text" value="联系方式">
+            <input type="text" value="邮箱">
+        </div>
+        <div class="contact_d2"><button>提交</button></div>
+    </div>
+    <div class="footer">
+        <div class="footer_d1">
+            <p>Copyright © 2010-2017</p>
+            <p>FASHION WEB</p>
+        </div>
+    </div>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+    var home = document.querySelector(".home");
+    var show = document.querySelector("#show");
+    home.onclick = function(){
+        if(home.innerHTML=="首页"){
+            home.innerHTML = "关闭";
+            show.style.display = "block";
+        }else if(home.innerHTML=="关闭"){
+            home.innerHTML = "首页";
+            show.style.display = "none";
+        }
+    }
+
+    
+    </script>
+
+
+</body>
+
+</html>

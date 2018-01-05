@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width,
+    initial-scale=1.0,
+    user-scalable=no,
+    maximum-scale=1.0,
+    minimum-scale=1.0">
+    <title>外套精选</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.css"> </head>
+
+<body>
+    <div class="style_layout">
+        <div class="style_logo"> <img src="img/logo.png" alt=""> </div>
+    </div>
+    <div class="nav">
+        <div class="wtjx">外套精选</div>
+        <div id="show">
+            <ul>
+                <li><a href="index.html">商城首页</a></li>
+                <li><a href="#">外套精选</a></li>
+                <li><a href="yznx.html">优质女鞋</a></li>
+                <li><a href="dl.html">登录/注册</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mian_san">
+        <div class="d1">
+            <p class="p1">外套精选</p>
+            <p class="p2">information</p>
+        </div>
+        <div class="d2">
+            <div>
+                <a href="">
+                    <img src="img/12.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="img/13.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="img/14.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="img/15.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+            <div>
+                <a href="xpy.html">
+                    <img src="img/16.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="img/17.jpg" alt="">
+                    <p>Letchovre 女士夹克</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">  
+        <div class="footer_d1">
+            <p>Copyright © 2010-2017</p>
+            <p>FASHION WEB</p>
+        </div>
+    </div>
+    <script src="js/fontSizeSet.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+
+
+    var wtjx = document.querySelector(".wtjx");
+    var show = document.querySelector("#show");
+    wtjx.onclick = function(){
+        if(wtjx.innerHTML=="外套精选"){
+            wtjx.innerHTML = "关闭";
+            show.style.display = "block";
+        }else if(wtjx.innerHTML=="关闭"){
+            wtjx.innerHTML = "外套精选";
+            show.style.display = "none";
+        }
+    }
+
+    </script>
+</body>
+
+</html>
