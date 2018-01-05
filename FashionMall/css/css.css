@@ -104,8 +104,10 @@ body {
    position: absolute;
    z-index:999;
    display: none;
-   color: #fff;
-    font-size: 0.26rem;
+   font-size: 0.26rem;
+}
+#show a{
+    color: #fff;
 }
 #show ul li{
     padding: 0.2rem 0; 
